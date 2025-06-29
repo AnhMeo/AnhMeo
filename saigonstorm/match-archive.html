@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Archive</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <link rel='icon' href='./images/logo-no-text.png' type='image/x-icon'>
+    <script src='index.js' defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mobile-nav">
+                <a href='./index.html'>
+                    <img class='logo' src='./images/logo-no-text.png' alt='SaiGon Storm logo'>
+                </a>
+                <button class="menu-text">MENU</button>
+            </div>
+            <div class="nav-links">
+                <a href='./index.html'>
+                    <img class='logo' src='./images/logo-no-text.png' alt='SaiGon Storm logo'>
+                </a>
+                <a href="./index.html">HOME</a>
+                <a href="./match-archive.html">MATCH ARCHIVE</a>
+                <a href="./schedule.html">SCHEDULE</a>
+                <a href="./contact-social.html">CONTACT & SOCIALS</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="tab-container">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="matches">Matches</button>
+                <button class="tab-button" data-tab="highlights">Highlights</button>
+            </div>
+            <div class="tab-content" id="matches">
+                <h2>Match Archive</h2>
+                <div id="match-filter-container">
+                    <label for="match-filter">Filter by result:</label>
+                    <select id="match-filter">
+                        <option value="all">All</option>
+                        <option value="win">Wins</option>
+                        <option value="loss">Losses</option>
+                    </select>
+                </div>
+                <div id="matches-list">
+                    <div class="match" data-result="loss">
+                        <h3>14 Dec 2024 - Haven</h3>
+                        <p>Loss</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/L8iJ0O12mYU?si=CiGZlRK2O9ku_F6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="match" data-result="win">
+                        <h3>14 Dec 2024 - Haven</h3>
+                        <p>Win</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QRb24l8hElg?si=MySXHQTFBl5zhG_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="match" data-result="win">
+                        <h3>7 Dec 2024 - Split</h3>
+                        <p>Win</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9MztxmBJF8A?si=G-OMeqwcItCWblem" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="match" data-result="loss">
+                        <h3>7 Dec 2024 - Split</h3>
+                        <p>Loss</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FqhOo9un3dw?si=iHCrvXC7ZLSzrBix" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="match" data-result="win">
+                        <h3>30 Nov 2024 - Abyss</h3>
+                        <p>Win</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6V9pt-tX-5I?si=S2fIAhQ_bWSyIug4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>    
+            <div class="tab-content" id="highlights">
+                <h2>Highlights</h2>
+                <div id="highlights-filter">
+                    <label for="player-filter">Filter by Player:</label>
+                    <select id="player-filter">
+                        <option value="all">All</option>
+                        <option value="AnhMeo">AnhMeo</option>
+                        <option value="Phu">Phu</option>
+                        <option value="EyesWallowCome">EyesWallowCome</option>
+                        <option value="Blueree">Blueree</option>
+                        <option value="DrStav">DrStav</option>
+                    </select>
+                </div>
+                
+                <div id="highlights-list">
+                    <div class="highlight" data-player="AnhMeo">
+                        <h3>AnhMeo - Closing out the first round!</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WAGsUyGLaSQ?si=O9V3gnZa-wGUkaBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="nav.js"></script>
+</body>
+</html>
