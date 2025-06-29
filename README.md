@@ -12,7 +12,7 @@ I'm Christian Taylor, a student at Brigham Young University–Idaho studying Cyb
 
 ## Technologies and Tools
 
-- **Proficient in**: Python, Java, JavaScript, Swift, C#, SQL, Bash
+- **Proficient in**: Python, Java, JavaScript, C#, SQL, Bash
 - **Familiar with**: AWS (Cognito, Lambda, API Gateway, DynamoDB), Git, React Native (Expo Router), SQLite, Linux
 - **Skills**: Secure coding, app development, API design, version control, technical writing, educational content creation
 
