@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CatVault",
+    "slug": "CatVault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow CatVault to use Face ID for authentication."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow CatVault to access your camera for capturing photos."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": ["CAMERA"]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Allow CatVault to use Face ID for authentication.",
+        "NSCameraUsageDescription": "Allow CatVault to access your camera for capturing photos."
+      }
+    }
+  }
+}
