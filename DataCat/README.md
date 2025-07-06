@@ -6,7 +6,7 @@ The dataset I’m analyzing is sourced from my own Valorant match history via Tr
 
 The purpose of this software is to explore how my gameplay has evolved over time. By analyzing metrics like Average Combat Score (ACS), Average Damage per Round (ADR), and Kill/Death/Assist ratio (KDA), I can identify performance trends and areas for improvement. This project is a stepping stone toward building more advanced personal analytics dashboards. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/6l_L7rqI4yg)
 
 # Data Analysis Results
 
