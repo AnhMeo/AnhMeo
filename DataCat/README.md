@@ -59,7 +59,6 @@ Libraries Used:
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Once my API key is approved for use, I will re-enable the API integration in this app. 
 * Add bar charts to help visualize comparison between different maps and agents
 * Package project as an installable tool for other Valorant players
