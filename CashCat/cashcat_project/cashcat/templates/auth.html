@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}Login / Signup{% endblock %}
+{% block content %}
+<h1 class="mb-4">Welcome to CashCat</h1>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Login</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="login">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h2>Signup</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="signup">
+            <div class="mb-3">
+                <label for="signup-username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="signup-username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="signup-password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="signup-password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-success">Signup</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

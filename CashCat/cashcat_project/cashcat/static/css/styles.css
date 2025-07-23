@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #6e757c;
 }
 .navbar-brand {
     font-weight: bold;
@@ -9,4 +9,13 @@ body {
 }
 .table th, .table td {
     vertical-align: middle;
+}
+.delete-btn {
+    color: rgb(127, 111, 111);
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
 }
